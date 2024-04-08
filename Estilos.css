@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+* { /* Ajusta las configuraciones predeterminadas de los navegadores */
+    margin: 0; /* Hace que el margen de la pagina sea de 0 */
+    padding: 0; /* Hace que no haya espacios en blanco para acomodar los objetos */
+    box-sizing: border-box; /* */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(Imagenes/pxfuel3.jpg);
+}
+
+.galeriaseccion{
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(to right, #132133, #03080E);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    border: 2px inset#fff;
+}
+
+/*  MENU  */
+.coloresVer {
+    display: none;
+}
+
+
+.textoproyectos {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px inset#fff;
+    padding: 2px;
+}
+
+.caja2proyectos{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: fit-content;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.caja1 ion-icon{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 3px inset#fff;
+    border-radius: 5px;
+}
+
+.iconos1{
+    margin-top: 4px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.iconocolor1{
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to right, #9dff00, #315c00);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iconocolor2{
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to right, #132133, #03080E);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iconocolor3{
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to right, #ffffff, #2578dd);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iconocolor4{
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to right, #c96334, #ff0000);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.iconos1:hover{
+    background-color: white;
+    color: black;
+}
+
+.galeriaseccion ion-icon{
+    width: 25px;
+    height: 25px;
+    border: 1px inset#fff;
+    padding: 2px;
+}
+
+.logoanimacion1 :hover{
+    background-color: #25D366;
+    cursor: pointer;
+}
+
+.logoanimacion2 :hover{
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+.estilobotoncertificados{
+    padding: 4px;
+    margin-top: 30px;
+    background: #000;
+}
+
+.cajaproyectostitulo{
+    background: linear-gradient(to right, #132133, #03080E);
+    text-align: center; /* Alinea el texto en el centro */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    margin-top: 40px; /* Hace que el elemento tenga espacio arriba */
+    width: fit-content;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.cajaproyectos{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: 30%;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding-bottom: 1.5%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+}
+
+.caja1{
+    background: linear-gradient(to right, #132133, #03080E);
+    background-color: #17202A;
+    height: 30%; /* Altura de 600 pixeles */
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    width: 70%; /* Hace que el ancho este al 100% de la pantalla */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    margin-top: 40px; /* Hace que el elemento este hasta arriba */
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.caja2{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: 30%;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding-bottom: 1.3%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    padding-top: 1.3%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.caja3{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: 45%;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding-bottom: 1.3%;
+    padding-top: 1.3%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+}
+
+.caja4{
+    background: linear-gradient(to right, #132133, #03080E);
+    background-color: #17202A;
+    height: 30%; /* Altura de 600 pixeles */
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    width: 40%; /* Hace que el ancho este al 100% de la pantalla */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    margin-top: 40px; /* Hace que el elemento este hasta arriba */
+    padding-bottom: 0.3%;
+    padding-top: 0.5%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    overflow: hidden;
+}
+
+.caja4 label{
+    color: white;
+}
+
+
+.cajaproyectos1{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: 35%;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding-bottom: 1.3%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    padding-top: 1.3%;
+}
+
+
+.img1{ /*Estilo para las imagenes */
+    border-radius: 100%; /* Hace que el borde sea redondo */
+    border: 3px inset#f7f6f6;
+    width: 15%;
+    height: 15%;
+}
+
+/* Galeria imagenes */
+section{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 430px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+    margin: auto;
+  }
+
+  section img{   
+    width: 25%; /* Tamaño inicial para que las imágenes se vean */
+    height: 200px; 
+    flex-grow: 0; /* Previene que las imágenes crezcan para llenar el contenedor */
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+
+  section img:hover{
+    cursor: crosshair;
+    width: 50%;
+    opacity: 1;
+    filter: contrast(120%);
+    
+  }
+
+  .galeriaseccion label{
+    color: white;
+    text-align: center;
+  }
+
+p{
+    font-style: italic; /* Cambia el estilo de la fuente */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Cambia la fuente de los parrafos */
+    color: white; /* Cambia el color de los parrafos */
+    font-size: 1.3em; /* Cambia el tamaño de el parrafo */
+    padding-bottom: 20px; /* Crea un espacio en blanco abajo de 20 pixeles */
+    padding-top: 20px; /* Crea un espacio en blanco arriba de 20 pixeles */
+}
+
+.botones{
+    border-radius: 20%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.botones:hover{ /* Cuando el mouse esta encima realiza */
+    transform: scale(1.15); /* Aumenta el tamaño del cuadro al 110% */
+}
+
+a {
+    color: azure; /* Pone color a los parrafos con la etiqueta a */
+    text-decoration: none; /* Quita el subrallado que lleva por defecto el texto con la etiqueta a */
+}
+
+.titulos{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    text-align: center;
+    display: block; /* Agregar esta línea */
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.texto1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+    display: block; /* Agregar esta línea */
+}
+
+.texto2{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;   
+    text-align: center;
+    display: block; /* Hace que el elemento se comporte como un bloque osea que se alarga horizontalmente */
+    font-size: 1rem;
+}
+
+@keyframes cambiarColor {
+    0% { border-color: red; }
+    50% { border-color: blue; }
+    100% { border-color: red; }
+}
+
+@keyframes caida { /* animacion caida */
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animar-texto{
+    display: inline-block; /* Permite que la animación funcione correctamente */
+    animation: caida 5s ease-in-out forwards; /* Ajusta estos valores según lo que necesites */
+}
+
+.cajatextos{
+    max-width: 700px;
+    margin: 3%;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    padding: 45px 20px;
+    max-height: 700px;
+    border: 7.5px solid;
+    border-radius: 15%;
+    animation: cambiarColor 2s linear infinite;
+    overflow: hidden;
+}
+
+.botonproyecto{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 13px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0e03ac, rgb(5, 1, 53));
+    transition: transform 0.5s ease, background 0.7s ease;
+    display: block; /* Agregar esta línea */
+    justify-content: center;
+}
+
+.botonproyecto:hover{
+    transform: scale(1.15); /* Aumenta el tamaño del cuadro al 110% */
+    background: linear-gradient(to right, rgb(5, 1, 53), #0e03ac);
+}
+
+.textoboton{
+    font-style: italic; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;   
+}
+
+.contenedor_skills{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    overflow-x: scroll;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    background: linear-gradient(to right, #132133, #03080E);
+}
+
+.contenedorchico_skills{
+    padding-top: 4%;
+    text-align: center;
+    width: 30%;
+    max-width: 31%;
+    height: 30%;
+    max-height: 31%;
+    background: linear-gradient(to right, #0e03ac, rgb(5, 1, 53));
+    border-radius: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: transform 0.5s ease;
+}
+
+.contenedorchico_skills:hover{
+    transform: scale(1.10); /* Aumenta el tamaño del cuadro al 110% */
+    border: 2.5px inset#f7f6f6;
+}
+
+.textoskills{
+    color: white;
+    font-style: italic; /* Cambia el estilo de la fuente */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Cambia la fuente de los parrafos */
+}
+
+.barraskill{
+    background-color: white;
+    border-radius: 5px;
+    height: 10%;
+    width: 70%;  
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.contenedorchico_skills:nth-child(1) .barraskill {
+    width: 70%; /* Ancho para el primer div */
+}
+
+.contenedorchico_skills:nth-child(2) .barraskill {
+    width: 46%; /* Ancho para el segundo div */
+}
+
+.contenedorchico_skills:nth-child(3) .barraskill {
+    width: 80%; /* Ancho para el primer div */
+}
+
+.contenedorchico_skills:nth-child(4) .barraskill {
+    width: 55%; /* Ancho para el segundo div */
+}
+
+.contenedorchico_skills:nth-child(5) .barraskill {
+    width: 80%; /* Ancho para el primer div */
+}
+
+.contenedorchico_skills:nth-child(6) .barraskill {
+    width: 50%; /* Ancho para el segundo div */
+}
+
+/* Servicios Tarjetas */
+
+.caja5servicios{
+    display: flex;
+    background: linear-gradient(to right, #132133, #03080E);
+    background-color: #17202A;
+    height: 40%; 
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    width: 40%; /* Hace que el ancho este al 100% de la pantalla */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding: 10%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    overflow-x: scroll;
+}
+
+.contenedor{
+    height: 40%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta{
+    height: 250px;
+    width: 200px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta::before{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(rgb(0, 204, 255) 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.tarjeta::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;;
+}
+
+
+h2{
+    color: rgb(0, 204, 255);
+    z-index: 2;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+.caja6formulario{
+    background: linear-gradient(to right, #132133, #03080E);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Alinea el texto en el centro */
+    align-items: center;  /* Alinea los elementos verticalmente */
+    margin-left: auto; /* Centrar horizontalmente Izquierda */
+    margin-right: auto; /* Centrar horizontalmente Derecha */
+    padding-bottom: 1.3%;
+    border-radius: 30px;
+    border: 5px inset#f7f6f6;
+    padding-top: 1.3%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.caja6formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.caja6formulario label{
+    color: white;
+}
+
+.caja6formulario form input{
+    border-radius: 15px;
+    width: 90%;
+}
+
+.caja6formulario form textarea{
+    border-radius: 15px;
+    width: 90%;
+}
+
+.caja6formulario form button{
+    width: 90%;
+    cursor: pointer;
+    padding: 2px;
+}

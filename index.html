@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <div class="caja1_borde">
+    <div class="caja1">
+        <img src="Imagenes/Yo.jpg" alt="Imagen1" class="img1"><br>
+        <p class="animar-texto">Carlos Daniel Muñiz Osorio</p><br>
+            <p id="texto1" class="animar-texto">Ingeniero En Sistemas Computacionales</p><br>
+        <a class="logoanimacion1" href="https://api.whatsapp.com/send/?phone=527225533495&text&type=phone_number&app_absent=0" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+            <a class="logoanimacion2" href="https://www.facebook.com/CarlosDM189" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+    </div>
+    </div>
+
+    <div class="caja4">
+        <label id="texto2" class="animar-texto"><strong>Opciones</strong></label><br>
+        <a title="Fondo" onclick="FondoImagen()">
+        <ion-icon class="iconos1" name="image-outline"></ion-icon>
+        </a>
+        <a title="Idioma" onclick="cambiarIdioma()">
+            <ion-icon class="iconos1" name="language-outline"></ion-icon>
+        </a>
+        <a title="Color" id="color-seleccionar">
+            <ion-icon class="iconos1" name="color-palette-outline"></ion-icon>
+            <div id="colores" class="coloresVer">
+                <a onclick="cambiarColor(1)">
+                    <ion-icon class="iconocolor1" name="radio-button-off-outline"></ion-icon>
+                </a>
+                <a onclick="cambiarColor(2)">
+                    <ion-icon class="iconocolor2" name="radio-button-off-outline"></ion-icon>
+                </a>
+                <a onclick="cambiarColor(3)">
+                <ion-icon class="iconocolor3" name="radio-button-off-outline"></ion-icon>
+                </a>
+                <a onclick="cambiarColor(4)">
+                    <ion-icon class="iconocolor4" name="radio-button-off-outline"></ion-icon>
+                </a>
+            </div>
+        </a>
+        <a title="Fuente" onclick="cambiarFuente()">
+        <ion-icon class="iconos1" name="text-outline"></ion-icon>
+        </a>
+    </div>
+
+    <div class="cajaproyectostitulo">
+    <label id="texto3" class="titulos animar-texto">Sobre mi</label>
+    </div>
+    <div class="caja2">
+    <label id="texto4" class="texto1 animar-texto"><strong>Nombre completo:</strong> Carlos Daniel Muñiz Osorio</label>
+    <label id="texto5" class="texto1 animar-texto"><strong>Edad:</strong> 18 años</label>
+    <label id="texto6" class="texto1 animar-texto"><strong>Pais:</strong> Mexico</label>
+    <label id="texto7" class="texto1 animar-texto"><strong>Idiomas:</strong> Español, Ingles</label>
+    <label id="texto8" class="texto1 animar-texto"><strong>Telefono:</strong> 7225533495</label>
+    <label id="texto9"class="texto1 animar-texto"><strong>Correo:</strong> carlosdm123212@ gmail.com</label>
+    <label id="texto10" class="texto1 animar-texto"><strong>Direccion:</strong> Toluca de lerdo. Izcalli Blanco 43</label>
+    </div> <br>
+
+    <div class="cajaproyectostitulo">
+    <label class="titulos" id="texto11">Biografia</label>
+    </div>
+    <div class="caja3">
+            <label class="texto1 animar-texto" id="texto12">
+            Soy un programador siempre me ha encantado resolver problemas desde toda la 
+            logica que hay que aplicar y plantear una posible solucion en tu mente de como podrias crear el codigo del programa
+            para que funcione cada parte y como se conecta todo entre si para conseguir que el programa realize una tarea especifica
+            eso fue lo que me llevo a escojer esta carrera, Los lenguajes de programacion que mas 
+            domino son Java, C, JavaScript con HTML CSS
+            un poco de php, este es mi portafolio digital que cree yo mismo usando HTML con CSS
+            Pero para trabajar en un proyecto estoy dispuesto a seguir aprendiendo de cualquier lenguaje de programacion
+            y de cualquier framework, tengo 2 certificados de NETACAD, Soy bueno para los trabajos en equipo y 
+            colaborar con otras personas para un proyecto en conjunto, Creo en la importancia de la comunicación
+            efectiva y la capacidad de trabajar en entornos dinámicos y colaborativos. 
+            Mi objetivo es convertirme en un programador versátil capaz de desarrollar una 
+            amplia gama de aplicaciones y sitios web funcionales y atractivos.
+            </label>
+        </div> <br>
+
+        <div class="cajaproyectostitulo">
+        <label class="titulos" id="texto13">Habilidades</label>
+        </div>
+        <div class="contenedor_skills">
+        <section>
+            <div class="contenedorchico_skills">
+            <label class="textoskills">HTML</label>
+
+            <div class="barraskill"></div>
+
+            </div> 
+            <div class="contenedorchico_skills">
+                <label class="textoskills">CSS</label>
+
+                <div class="barraskill"></div>
+            </div> 
+            <div class="contenedorchico_skills">
+                <label class="textoskills">Java</label>
+
+            <div class="barraskill"></div>
+            </div> 
+            <div class="contenedorchico_skills">
+                <label class="textoskills">JavaScript</label>
+
+                <div class="barraskill"></div>
+            </div> 
+            <div class="contenedorchico_skills">
+                <label class="textoskills">C</label>
+
+            <div class="barraskill"></div>
+            </div> 
+            <div class="contenedorchico_skills">
+                <label class="textoskills">PHP</label>
+
+                <div class="barraskill"></div>
+            </div> 
+        </section>
+        </div>
+        
+        <div class="cajaproyectostitulo">
+            <label id="texto20" class="titulos">Servicios</label>
+            </div>
+        <div class="caja5servicios">
+            <div class="contenedor">
+                <div class="tarjeta">
+                    <h2 id="texto21">Desarrollo Web</h2> 
+                </div>
+                <div class="tarjeta">
+                    <h2 id="texto22">Desarrollo De Aplicaciones</h2> 
+                </div>
+                <div class="tarjeta">
+                    <h2 id="texto23">Integracion De APIS</h2> 
+                </div>
+                <div class="tarjeta">
+                    <h2 id="texto24">Desarrollo Backend</h2> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cajaproyectostitulo">
+        <label class="titulos" id="texto14">Certificados</label>
+        </div>
+        <div class="cajaproyectos">
+            <a href="Certificado-NE.pdf" download="Certificado-NE" title="Descargar">
+                <button class="estilobotoncertificados" style="color: white;" download="Certificado-NE" id="texto15">Certificado NE</button>
+                </a> <br>
+            <a href="Certificado-IOT.pdf" download="Certificado-IOT" title="Descargar">
+            <button class="estilobotoncertificados" style="color: white;" download="Certificado-IOT" id="texto16">Certificado IOT</button>
+            </a>
+        </div>
+
+        <div class="cajaproyectostitulo">
+        <label class="titulos" id="texto17">Mis Proyectos</label> 
+        </div>
+        <div class="caja2proyectos">        
+        <section class="galeriaseccion">
+            <div class="textoproyectos">
+                <label id="texto18"><strong>Proyecto 1</strong></label>
+            </div>
+            <a href="PagV0.2.1.zip" download="Pagv0.2.1.zip" title="Descargar">
+                <ion-icon name="download-outline"></ion-icon>
+            </a>
+            <img src="Imagenes/Proyecto1IMG1.png" alt="IMG1">
+            <img src="Imagenes/Proyecto1IMG2.png" alt="IMG2">
+            <img src="Imagenes/Proyecto1IMG3.png" alt="IMG3">
+        </section>
+        <section class="galeriaseccion">
+            <div class="textoproyectos">
+                <label id="texto19"><strong>Proyecto 2</strong></label>
+            </div>
+            <a href="Practica1Bootstrap.zip" download="Practica1Bootstrap.zip" title="Descargar">
+                <ion-icon name="download-outline"></ion-icon>
+            </a>
+            <img src="Imagenes/Proyecto1IMG4.png" alt="IMG4">
+            <img src="Imagenes/Proyecto1IMG5.png" alt="IMG5">
+            <img src="Imagenes/Proyecto1IMG6.png" alt="IMG6">
+            <img src="Imagenes/Proyecto1IMG7.png" alt="IMG7">
+        </section>
+        </div>
+
+
+        <div class="cajaproyectostitulo">
+            <label class="titulos" id="texto25">Formulario De Contacto</label>
+        </div>
+        <div class="caja6formulario">
+            <form action="https://formsubmit.co/carlosdm123212@gmail.com" method="POST">
+                <label class="Nombre" id="texto26">Nombre</label>
+                <input type="text" name="Nombre" required>
+                <label class="Nombre" id="texto27">Correo</label>
+                <input type="email" name="Correo" placeholder="name@example.com" required>
+                <label class="Nombre" id="texto28">Mensaje</label>
+                <textarea rows="3" type="text" name="Mensaje" required></textarea>
+                <button class="botonenviar" type="submit" id="texto29">
+                    Enviar 
+                </button>
+            </form>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="javascript.js"></script>
+</body>
+</html>
